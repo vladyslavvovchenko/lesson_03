@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+/* *{
+    color:blueviolet;
+} */
+
+/* Чому якщо розкоментувати *, то вона перебиває класи задані на div, footer та id хоча має найнижчий пріоритет? */
+
+.header h1{
+    color: red;
+}
+
+.list .item{
+    color:darkgreen;
+}
+
+#karpaty{
+    color:darkorange;
+}
+
+.karpaty > p{
+    color: deeppink;
+}
+
+.sich-text + p {
+    color:olive;
+}
+
+.pole-title ~ p{
+    color:goldenrod;
+}
+
+.mriya *{
+    color:darkseagreen;
+}
+
+[class*="bo"] {
+    color: blue;
+}
+
+p.pripyat-text{
+    color: darkslategray;
+}
+
+.shchedryk,
+.footer {
+    color: skyblue;
+}
+
